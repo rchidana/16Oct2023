@@ -5,5 +5,5 @@ Potential sensitive information from Git Repositories can be scanned using free/
 This tool can be installed in many ways (for more details, please refer to https://github.com/trufflesecurity/trufflehog) and the easiest option is to run this within a docker container as follows: <br>
 
 ```
-docker run -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --repo https://github.com/rchidana/16Oct2023
+docker run -it -v "$PWD:/pwd" ghcr.io/trufflesecurity/trufflehog:latest github --repo https://github.com/rchidana/16Oct2023 --debug
 ```
